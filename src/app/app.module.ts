@@ -13,6 +13,7 @@ import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-ses
 import { PofolioComponent } from './componentes/pofolio/pofolio.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Routes } from '@angular/router';
+import { HomeComponent } from './componentes/home/home.component';
 
 
 
@@ -31,6 +32,7 @@ const routes: Routes = [
     FooterComponent,
     IniciarSesionComponent,
     PofolioComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
